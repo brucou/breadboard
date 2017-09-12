@@ -5,3 +5,11 @@ Because the solderless breadboard does not require soldering, it is reusable. Th
 ![breadboard](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/400_points_breadboard.jpg/220px-400_points_breadboard.jpg)
 
 By analogy this library aims at allowing to build an application by assembling disparate components. The library provides the board, the wiring and the conventions to make that assembly possible. As such it does not aim to provide the component themselves, which should be found in a suitable library of reusable components.
+
+# Changelog
+- [x] imported implementation of circuits library from Cycle_HSM
+- [x] imported tests for circuits library from Cycle_HSM
+
+# TODO
+- [ ] switch from require to ES6 import and corresponding build featuring tree-shaking for stand-alone publishing
+- [ ] make the tests pass again

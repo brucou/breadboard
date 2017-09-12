@@ -1,0 +1,24 @@
+{
+  "name": "breadboardjs",
+  "version": "0.0.1",
+  "devDependencies": {
+    "istanbul": "^1.1.0-alpha.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/h5bp/html5-boilerplate/blob/master/LICENSE.txt"
+  },
+  "scripts": {
+    "test": "istanbul cover test/main.js",
+    "build": "TODO"
+  },
+  "dependencies": {
+   "rx": "^4.0.8",
+    "bootstrap": "^3.3.6",
+    "jquery": "^1.12.1",
+    "qunit": "^0.9.0"
+  }
+}
